@@ -3,36 +3,36 @@ This repository hosts the outputs of the exploratory stage of Phases 3-4 of my G
 
 # 🌍 Global AI Bias Audit for Technical Governance
 
-[cite_start]This repository contains the code, data, and technical report (including empirical findings) from the exploratory phase of the **Global AI Dataset (GAID) Project**[cite: 5, 6]. [cite_start]This research evaluates geographical and socioeconomic biases in Large Language Models (LLMs), specifically stress-testing the Llama-3 8B model's awareness of technical AI governance metrics across 213 countries[cite: 6, 7].
+This repository contains the code, data, and technical findings from the exploratory phase of the [Global AI Dataset (GAID) Project](https://dataverse.harvard.edu/dataverse/gaidproject). This exploratory research evaluates geographical and socioeconomic biases in Large Language Models (LLMs), specifically stress-testing the Llama-3 8B model's awareness of technical AI governance metrics across 213 countries.
 
 ## 📑 Project Overview
-[cite_start]Current AI alignment processes often reinforce geoeconomic asymmetries[cite: 11]. [cite_start]This project provides a quantitative, data-driven audit to expose "geographical hallucinations" and information gaps between the Global North and South[cite: 10, 18].
+Current AI alignment processes often reinforce geoeconomic asymmetries, potentially leading to a modern form of **digital colonization**. This project provides a quantitative, data-driven audit to expose "geographical hallucinations" and information gaps between the Global North and South.
 
-### Key Findings
-* [cite_start]**Low Factual Accuracy:** The model provided number/fact responses in only 11.4% of queries[cite: 8].
-* [cite_start]**Systemic Ignorance:** High refusal rates were concentrated in Sub-Saharan Africa and Latin America & the Caribbean [cite: 9, 135].
-* [cite_start]**Epistemic Exclusion:** The model frequently failed to recognize the technical agency and infrastructure of developing countries[cite: 35, 36].
+### 🔍 Key Findings
+* **📉 Low Factual Accuracy:** The model provided number/fact responses in only 11.4% of its query answers.
+* **🚫 Systemic Ignorance:** High refusal rates were heavily concentrated in Sub-Saharan Africa and Latin America.
+* **⚠️ Epistemic Exclusion:** The model frequently failed to recognize the technical agency and infrastructure of developing nations.
+* **💰 Wealth Bias:** AI technical knowledge is heavily concentrated in higher-income regions.
 
 ## 📁 Repository Structure
-* [cite_start]**`GAID_Technical_Paper.pdf`**: The full technical report (in arXiv) presented at Apart Research's Technical AI Governance Challenge 2026[cite: 1, 12].
-* [cite_start]**`census_audit_results.csv`**: The raw output of 1,704 queries across 8 technical metrics and 213 countries[cite: 7, 85].
-* [cite_start]**`colab_analyze_audit_results.py`**: Python script used to categorize model responses (e.g., "Honest Ignorance" vs. "Unverified Confidence") and generate statistical insights[cite: 80, 91, 95].
-* [cite_start]**`scripts/`**: Includes the automated query generation tools used in the audit[cite: 80].
+* **📄 `technical paper.pdf`**: The full technical report presented at Apart Research's Technical AI Governance Challenge 2026.
+* **📊 `census_audit_results.csv`**: The raw output of 1,704 unique audit queries across 8 technical metrics and 213 countries.
+* **🐍 `colab_analyze_audit_results.py`**: Python script used to process model performance and calculate ignorance rates.
 
 ## 🛠️ Metrics Evaluated
-[cite_start]The audit stress-tests three pillars of technical governance[cite: 30, 31]:
-1. [cite_start]**AI Safety:** Training compute, hardware frontiers, and high-level publications[cite: 71].
-2. [cite_start]**AI Fairness:** Private investment, patents granted, and workforce size[cite: 72].
-3. [cite_start]**AI Readiness:** Government readiness indices and specialized infrastructure[cite: 73].
+The audit stress-tests three pillars of technical governance:
+1. **🛡️ AI Safety:** Total training compute, hardware frontiers, and high-level publications.
+2. **⚖️ AI Fairness:** Private investment, AI patents granted, and workforce size.
+3. **🚀 AI Readiness:** Government AI readiness index and specialized infrastructure scores.
 
-## 🚀 Getting Started
-1. **View the Results:** Explore `census_audit_results.csv` to see how Llama-3 8B responded to specific countries.
-2. [cite_start]**Run the Analysis:** Use the provided `.py` script to replicate the "Knowledge Rate" vs. "Refusal Rate" findings[cite: 88, 182].
-3. [cite_start]**Explore the Dataset:** The ground-truth global panel AI data is hosted at the [GAID Project Dataverse](https://doi.org/10.7910/DVN/PUMGYU)[cite: 19, 20].
+## 🏁 Getting Started
+1. **View the Results:** Explore `census_audit_results.csv` to see how Llama-3 8B responded to specific jurisdictions.
+2. **Run the Analysis:** Use the provided `.py` script to replicate the "Knowledge Rate" vs. "Refusal Rate" findings.
+3. **Explore the Dataset:** The ground-truth data is hosted at the [GAID Project Dataverse](https://dataverse.harvard.edu/dataverse/gaidproject).
 
 ## ✉️ Contact & Citation
-[cite_start]**Author:** Jason Hung [cite: 2]
-[cite_start]**Affiliation:** Independent / Apart Research [cite: 2, 3]
+**Author:** Jason Hung
+**Affiliation:** Independent / Apart Research
 
-If you use this data or code, please cite the original arXiv paper:
-> Hung, J. (2026). *Global AI Bias Audit for Technical Governance*. GAID Project.
+If you use this data or code, please cite the original work:
+> Hung, J. (2026). *Global AI Bias Audit for Technical Governance*. Research conducted at the Technical AI Governance Challenge.
