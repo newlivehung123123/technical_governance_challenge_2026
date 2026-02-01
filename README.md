@@ -35,4 +35,4 @@ The audit stress-tests three pillars of technical governance:
 **Affiliation:** Independent / Apart Research
 
 If you use this data or code, please cite the original work:
-> Hung, J. (2026). *Global AI Bias Audit for Technical Governance*. Research conducted at the Technical AI Governance Challenge.
+> Hung, J. (2026). *Global AI Bias Audit for Technical Governance*. Research conducted at the Technical AI Governance Challenge, Apart Research. Paper submitted to arXiv (Identifier: submit/7221583).
