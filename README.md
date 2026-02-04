@@ -8,6 +8,36 @@ This repository contains the code, data, and technical findings from the explora
 ## 📑 Project Overview
 Current AI alignment processes often reinforce geoeconomic asymmetries, potentially leading to a modern form of **digital colonization**. This project provides a quantitative, data-driven audit to expose "geographical hallucinations" and information gaps between the Global North and South.
 
+## 🚀 Quickstart
+
+### Prerequisites
+* **Hardware:** NVIDIA A100 GPU (recommended) or T4 (via Google Colab).
+* **Dependencies:** `transformers`, `bitsandbytes`, `accelerate`, `flash-attn`.
+
+### Setup & Execution
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/your-username/technical_governance_challenge_2026.git](https://github.com/your-username/technical_governance_challenge_2026.git)
+   cd technical_governance_challenge_2026
+
+2. Run Inference: Open Untitled0.ipynb in Google Colab. This notebook handles the 4-bit NF4 quantization and Flash Attention 2 environment required to run the audit at scale.
+
+3. Analyze Results:
+
+    ```Bash
+    python colab_analyze_audit_results.py
+    This script processes the raw output to generate the statistical breakdown of "Knowledge Rate" vs. "Refusal Rate."
+
+🛠️ Technical Methodology
+Architecture
+     ```Plaintext
+       GAID Dataset (Ground Truth) 
+        -> Metric Operationalization (8 Metrics)
+        -> Automated Prompt Engineering (1,704 Queries)
+        -> Model Audit (Llama-3 8B @ 4-bit Quantization)
+        -> Response Categorization (Regex-based Pattern Matching)
+        -> Statistical Analysis & Visualisation (Matplotlib/Seaborn)
+  
 ### 🔍 Key Findings
 * **📉 Low Factual Accuracy:** The model provided number/fact responses in only 11.4% of its query answers.
 * **🚫 Systemic Ignorance:** High refusal rates were heavily concentrated in Sub-Saharan Africa and Latin America.
