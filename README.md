@@ -30,13 +30,14 @@ Current AI alignment processes often reinforce geoeconomic asymmetries, potentia
 
 🛠️ Technical Methodology
 Architecture
-     ```Plaintext
-       GAID Dataset (Ground Truth) 
-        -> Metric Operationalization (8 Metrics)
-        -> Automated Prompt Engineering (1,704 Queries)
-        -> Model Audit (Llama-3 8B @ 4-bit Quantization)
-        -> Response Categorization (Regex-based Pattern Matching)
-        -> Statistical Analysis & Visualisation (Matplotlib/Seaborn)
+   ```text
+   GAID Dataset (Ground Truth) 
+ -> Metric Operationalization (8 Metrics)
+ -> Automated Prompt Engineering (1,704 Queries)
+ -> Model Audit (Llama-3 8B @ 4-bit Quantization)
+ -> Response Categorization (Regex-based Pattern Matching)
+ -> Statistical Analysis & Visualisation (Matplotlib/Seaborn)
+```
   
 ### 🔍 Key Findings
 * **📉 Low Factual Accuracy:** The model provided number/fact responses in only 11.4% of its query answers.
