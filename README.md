@@ -17,7 +17,7 @@ Current AI alignment processes often reinforce geoeconomic asymmetries, potentia
 ### Setup & Execution
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/your-username/technical_governance_challenge_2026.git](https://github.com/your-username/technical_governance_challenge_2026.git)
+   git clone [https://github.com/newlivehung123123/technical_governance_challenge_2026.git](https://github.com/newlivehung123123/technical_governance_challenge_2026.git)
    cd technical_governance_challenge_2026
 
 2. Run Inference: Open `technical_governance.ipynb` in Google Colab. This notebook handles the 4-bit NF4 quantization and Flash Attention 2 environment required to run the audit at scale.
