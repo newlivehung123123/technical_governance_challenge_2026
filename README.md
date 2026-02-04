@@ -59,7 +59,7 @@ The audit stress-tests three pillars of technical governance:
 ## 🏁 Getting Started
 1. **View the Results:** Explore `census_audit_results.csv` to see how Llama-3 8B responded to specific jurisdictions.
 2. **Run the Analysis:** Use the provided `.py` script to replicate the "Knowledge Rate" vs. "Refusal Rate" findings.
-3. **Explore the Dataset:** The ground-truth data is hosted at the [GAID Project Dataverse](https://dataverse.harvard.edu/dataverse/gaidproject).
+3. **Explore the Dataset:** The ground-truth data is hosted at the [GAID Project Dataverse](https://dataverse.harvard.edu/dataverse/gaidproject). **Note:** This exploratory project uses the GAID dataset as a framework to run AI evals.
 
 ## ✉️ Contact & Citation
 **Author:** Jason Hung
